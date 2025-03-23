@@ -6,13 +6,15 @@
     <title>Taşdelen Borsa İstanbul Mesleki Ve Teknik Anadolu Lisesi</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awsome.min.css">
 </head>
 <body>
     
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo-net.png"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -21,7 +23,13 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+
+        <div class="text-box">
+            <h1>İstanbul'un En İyi Meslek Lisesi</h1>
+            <p>Her Yerde, Her Zaman Öğrenin</p>
+            <a href="" class="hero-btn">Daha Fazlasını Öğrenmek İçin Bizi Ziyaret Edin</a>
     </section>
 
 </body>
