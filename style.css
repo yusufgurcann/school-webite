@@ -78,14 +78,13 @@ nav img {
 
 .hero-btn {
     display: inline-block;
-    text-decoration: none;
-    color: #ffff;
-    border: 1px solid #ffff;
-    padding: 12px 34px;
-    font-size: 13px;
+    padding: 12px 25px;
     background: transparent;
-    position: relative;
-    cursor: pointer;
+    color: #124584;
+    border: 1px solid #124584;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
 }
 
 nav .fa {
@@ -93,11 +92,8 @@ nav .fa {
 }
 
 .hero-btn:hover {
-    border: 1px solid #124584;
     background: #124584;
-    transition: 1s;
-    color: #ffff;
-    transition: 0.5s;
+    color: #fff;
 }
 
 @media(max-width:700px) {
@@ -330,7 +326,7 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/bist_drone.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/bist_drone.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -345,34 +341,78 @@ h3 {
     padding: 0;
 }
 
-@media(max-width:700px){
-    .cta h1{
+@media(max-width:700px) {
+    .cta h1 {
         font-size: 24px;
     }
 }
 
 /*----- Footer -----*/
 
-.footer{
+.footer {
     width: 100%;
     text-align: center;
     padding: 30px 0;
 }
 
-.footer h4{
+.footer h4 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
 }
 
-.icons .fa{
+.icons .fa {
     color: #124584;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
-.fa-heart-o{
+
+.fa-heart-o {
     color: #124584;
 }
 
+/*------ AboutUs ------*/
+.sub-header {
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/mezun.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 
+.sub-header h1 {
+    margin-top: 100px;
+}
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col h1{
+    padding-top: 0;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+
+.blue-btn{
+    color: #124584;
+    border: 1px solid #124584;
+    background: transparent;
+}
