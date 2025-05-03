@@ -1,2 +1,2 @@
 # school-webite design print("Hello World");
-print("Hello Developers");
+# print("Hello Developers"); bold text
