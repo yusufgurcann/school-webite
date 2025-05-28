@@ -1,47 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Taşdelen Borsa İstanbul Mesleki ve Teknik Anadolu Lisesi</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
 
-    <!-- Header Section -->
+    <!-- Üst Kısım / Header -->
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="images/logo-net.png" alt="School Logo"></a>
+            <a href="index.html"><img src="images/logo-net.png" alt="Okul Logosu" /></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="index.html">ANASAYFA</a></li>
+                    <li><a href="about.html">HAKKIMIZDA</a></li>
+                    <li><a href="courses.html">KURSLAR</a></li>
                     <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="contact.html">İLETİŞİM</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>Contact Us</h1>
+        <h1>Bize Ulaşın</h1>
     </section>
 
-    <!-- Contact us -->
-
+    <!-- İletişim Bölümü -->
     <section class="location">
-
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.749314832513!2d29.230477876679384!3d41.030740118040455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1fdfdc8286b%3A0xb22be37881090d5c!2sTa%C5%9Fdelen%20Borsa%20%C4%B0stanbul%20Mesleki%20ve%20Teknik%20Anadolu%20Lisesi!5e0!3m2!1str!2str!4v1746217647040!5m2!1str!2str"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
     </section>
 
     <section class="contact-us">
@@ -64,34 +68,44 @@
                 <div>
                     <i class="fa fa-envelope-o" style="color: #124584;"></i>
                     <span>
-                        <h5>info@gmail.com</h5>
-                        <p>Sorularınızı bize iletin</p>
+                        <h5>info@tasdelenborsa.k12.tr</h5>
+                        <p>Sorularınız için bize ulaşabilirsiniz</p>
                     </span>
                 </div>
             </div>
 
             <div class="contact-col">
-                <input type="text" placeholder="Enter your name" required><br>
-                <input type="email" placeholder="Enter your email" required><br>
-                <input type="text" placeholder="Enter your subject" required><br>
-                <textarea rows="8" placeholder="Message" required></textarea><br>
-                <button type="submit" class="hero-btn blue-btn">Send Message</button>
+                <form action="#" method="post" onsubmit="return validateForm()">
+                    <input type="text" name="name" placeholder="Adınız Soyadınız" required /><br />
+                    <input type="email" name="email" placeholder="E-posta Adresiniz" required /><br />
+                    <input type="text" name="subject" placeholder="Konu" required /><br />
+                    <textarea name="message" rows="8" placeholder="Mesajınız" required></textarea
+                    ><br />
+                    <button type="submit" class="hero-btn blue-btn">Gönder</button>
+                </form>
             </div>
         </div>
     </section>
 
-
-    <!-- Footer Section -->
+    <!-- Alt Kısım / Footer -->
     <footer class="footer">
         <div class="container">
             <h4>Taşdelen Borsa İstanbul MTAL</h4>
-            <p>Geleceğin mesleklerini öğretmek için buradayız</p>
+            <p>Geleceğin mesleklerini öğretmek için buradayız.</p>
 
             <div class="social-icons">
-                <a href="#"><i class="fa fa-facebook-f" style="color: #124584;"></i></a>
-                <a href="#"><i class="fa fa-twitter" style="color: #124584;"></i></a>
-                <a href="#"><i class="fa fa-instagram" style="color: #124584;"></i></a>
-                <a href="#"><i class="fa fa-linkedin" style="color: #124584;"></i></a>
+                <a href="#" aria-label="Facebook"
+                    ><i class="fa fa-facebook-f" style="color: #124584;"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                    ><i class="fa fa-twitter" style="color: #124584;"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                    ><i class="fa fa-instagram" style="color: #124584;"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                    ><i class="fa fa-linkedin" style="color: #124584;"></i
+                ></a>
             </div>
 
             <div class="copyright">
