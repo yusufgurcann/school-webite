@@ -59,3 +59,13 @@ Tasarım tamamen responsive'dir. Tüm cihazlarda uyumlu ve kullanılabilir olaca
 ---
 
 ## 📂 Dosya Yapısı
+proje-klasörü/
+│
+├── images/               → Görseller
+├── style.css             → Ana stil dosyası
+├── script.js             → Basit JS etkileşimleri (menü aç/kapat)
+├── index.html            → Ana sayfa
+├── about.html            → Hakkımızda
+├── courses.html          → Kurslar
+├── blog.html             → Blog
+└── contact.html          → İletişim
